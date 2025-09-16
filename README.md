@@ -1,4 +1,5 @@
-**Lab Assignment Solution by Yatharth Chopra, BTech CSE Data Science, Sem 5, Roll No: 2301420022**
+**Lab Assignment**
+**Yatharth Chopra, BTech CSE Data Science, Sem 5, Roll No: 2301420022**
 
 # OS Lab Experiment 1: Process Management
 
@@ -6,10 +7,15 @@
 
 ```mermaid
 flowchart TD
-    A[Task 1: Process Creation Utility\nFork 3 children, print PIDs] --> B[Task 2: Command Execution Using exec()\nExecute ls -l in child]
-    B --> C[Task 3: Zombie & Orphan Processes\nSimulate zombie and orphan states]
-    C --> D[Task 4: Inspecting Process Info from /proc\nRead /proc/[pid]/status, exe, fd]
-    D --> E[Task 5: Process Prioritization\nSet nice values, observe CPU scheduling]
+    A["Task 1: Process Creation Utility
+Fork 3 children, print PIDs"] --> B["Task 2: Command Execution Using exec()
+Execute ls -l in child"]
+    B --> C["Task 3: Zombie & Orphan Processes
+Simulate zombie and orphan states"]
+    C --> D["Task 4: Inspecting Process Info from proc
+Read proc/pid/status, exe, fd"]
+    D --> E["Task 5: Process Prioritization
+Set nice values, observe CPU scheduling"]
 ```
 
 ## Task Details
